@@ -1,4 +1,11 @@
 {
+  "name": "siyugg.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build -i src/style.css -o style.css"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
