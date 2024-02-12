@@ -1,4 +1,14 @@
 import React, { useEffect, useState } from "react";
+import {
+  emailIcon,
+  emailIconPink,
+  linkedinIcon,
+  linkedinIconPink,
+  githubIcon,
+  githubIconPink,
+  linkIcon,
+  resumeThumbnail,
+} from "./icon";
 
 import "./style.css";
 
@@ -27,6 +37,7 @@ function LoadingScreen() {
 
 function LeftColumn() {
   const [currentSection, setCurrentSection] = useState("");
+  const [hoverIcon, setHoverIcon] = useState("");
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
@@ -106,7 +117,9 @@ function LeftColumn() {
               Siyu Gao
             </div>
           </div>
-          <span className="block text-sm pt-2">Aspiring developer</span>
+          <span className="block text-sm pt-2">
+            &lt; Aspiring developer /&gt;
+          </span>
         </div>
       </div>
 
@@ -157,16 +170,16 @@ function LeftColumn() {
           id="resumeThumbnail"
           className={`resume-thumbnail ${isThumbnailVisible ? "visible" : ""}`}
         >
-          <a href="../docs/Gao_Siyu_Resume.pdf" download>
+          <a href="./docs/Gao_Siyu_Resume.pdf" download>
             <img
-              src="../images/resume-thumbnail.png"
+              src={resumeThumbnail}
               alt="Resume Thumbnail"
               className="h-36 blur-1"
             />
           </a>
           <div className="absolute bottom-12 w-full text-center opacity-0 transition-opacity duration-100 hover:opacity-100 text-sm">
             <a
-              href="../docs/Gao_Siyu_Resume.pdf"
+              href="./docs/Gao_Siyu_Resume.pdf"
               download
               className="text-red-500 hover:text-black-700 py-12"
             >
@@ -188,33 +201,30 @@ function LeftColumn() {
           <li className="shrink-0">
             <a href="https://www.linkedin.com/in/siyu-gao/">
               <img
-                src="../images/icon/linkedin-3-32.png"
+                src={hoverIcon === "linkedin" ? linkedinIconPink : linkedinIcon}
                 alt="LinkedIn"
-                className="transition-all duration-300 ease-in-out"
-                onmouseover="this.src='../images/icon/linkedin-3-32-pink.png'"
-                onmouseout="this.src='../images/icon/linkedin-3-32.png'"
+                onMouseEnter={() => setHoverIcon("linkedin")}
+                onMouseLeave={() => setHoverIcon("")}
               />
             </a>
           </li>
           <li className="shrink-0">
             <a href="https://github.com/siyugg">
               <img
-                src="../images/icon/github-9-32.png"
+                src={hoverIcon === "github" ? githubIconPink : githubIcon}
                 alt="Github"
-                className="transition-all duration-300 ease-in-out"
-                onmouseover="this.src='../images/icon/github-9-32-pink.png'"
-                onmouseout="this.src='../images/icon/github-9-32.png'"
+                onMouseEnter={() => setHoverIcon("github")}
+                onMouseLeave={() => setHoverIcon("")}
               />
             </a>
           </li>
-          <li>
+          <li className="shrink-0">
             <a href="mailto:siyugao52@gmail.com">
               <img
-                src="../images/icon/email-12-32.png"
+                src={hoverIcon === "email" ? emailIconPink : emailIcon}
                 alt="Email"
-                className="transition-all duration-300 ease-in-out"
-                onmouseover="this.src='../images/icon/email-12-32-pink.png'"
-                onmouseout="this.src='../images/icon/email-12-32.png'"
+                onMouseEnter={() => setHoverIcon("email")}
+                onMouseLeave={() => setHoverIcon("")}
               />
             </a>
           </li>
@@ -344,7 +354,7 @@ function RightColumn() {
                   >
                     <span className="text-xs">Github</span>
                     <img
-                      src="./images/icon/external-link-2-32.png"
+                      src={linkIcon}
                       alt="GitHub Cinema Paradiso"
                       className="h-4 w-4 ml-2 transform"
                     />
@@ -385,7 +395,7 @@ function RightColumn() {
                   >
                     <span className="text-xs">Github</span>
                     <img
-                      src="./images/icon/external-link-2-32.png"
+                      src={linkIcon}
                       alt="GitHub TaskWatch"
                       className="h-4 w-4 ml-2 transform"
                     />
