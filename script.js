@@ -60,7 +60,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Hide the loading screen after 3 seconds
+document
+  .getElementById("resumeLink")
+  .addEventListener("click", function (event) {
+    event.preventDefault(); // Prevents the default action of the link
+
+    // Toggle the visibility of the resume thumbnail
+    var resumeThumbnail = document.getElementById("resumeThumbnail");
+    resumeThumbnail.classList.toggle("visible");
+  });
+
+// Hide the loading screen after 2 seconds
 window.onload = () => {
   setTimeout(() => {
     document.getElementById("loading-screen").style.display = "none";
