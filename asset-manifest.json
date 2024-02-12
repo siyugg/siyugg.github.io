@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/siyugg.github.io/static/css/main.1694f403.css",
+    "main.js": "/siyugg.github.io/static/js/main.a0f08466.js",
+    "static/media/Halogen-Regular.otf": "/siyugg.github.io/static/media/Halogen-Regular.1473fe5bf4585b103b60.otf",
+    "index.html": "/siyugg.github.io/index.html",
+    "main.1694f403.css.map": "/siyugg.github.io/static/css/main.1694f403.css.map",
+    "main.a0f08466.js.map": "/siyugg.github.io/static/js/main.a0f08466.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1694f403.css",
+    "static/js/main.a0f08466.js"
+  ]
+}
