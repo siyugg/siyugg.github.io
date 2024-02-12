@@ -10,44 +10,37 @@
     <!--LOADING SCREEN-->
     <div
       id="loading-screen"
-      class="fixed inset-0 bg-pink-100 flex justify-center items-center">
-      <p class="jump text-xl font-semibold">Siyu Gao | Portfolio</p>
+      class="fixed inset-0 background flex justify-center items-center">
+      <p class="jump text-base font-bold">Siyu Gao | Portfolio</p>
     </div>
     <!-- Main Container for columns -->
     <div class="flex right-0 w-[100vw] min-h-[100vh] animations">
       <!-- LEFT COLUMN -->
       <div id="left-column" class="hidden w-1/3 flex flex-col justify-center items-end pr-8 fixed">
         <!--INTRO-->
-        
-        
         <div class="inline ml-5 pt-10">
             <div class="text-black pt-24 align-text-bottom text-right">
-                <span class="block text-6xl">Siyu Gao</span> 
-                <span class="block text-l pt-2">Aspiring developer</span>
+                <span class="block text-5xl">Siyu Gao</span> 
+                <span class="block text-sm pt-2">Aspiring developer</span>
             </div>
          </div>
-            <!-- <div class="mt-6 content-end">
-            <img src="../profile.jpg" alt="Profile" class="border-2 w-32 h-auto"/>
-            <img src="../images/myphoto.jpg" alt="My Photo" class="w-48 h-auto" />
-            </div> -->
-        
         
         <!--NAV LIST-->
-        <div class="flex mt-16 pr-8">
-          <ul class="flex flex-col list-none text-center">
-            <li class="mt-4"><a href="#aboutSection" class="text-gray-500 text-lg font-semibold hover:text-pink-300 transition duration-200 transform">About</a></li>
-            <li class="mt-4"><a href="#projectSection" class="text-gray-500 text-lg font-semibold hover:text-pink-300 transition duration-200">Projects</a></li>
-            <li class="mt-4"><a href="#skillSection" class="text-gray-500 text-lg font-semibold hover:text-pink-300 transition duration-200">Skills</a></li>
+        <div class="flex mt-12 pr-8">
+          <ul class="flex flex-col list-none text-sm text-center">
+            <li class="mt-4"><a href="#aboutSection" class="text-gray-500 font-semibold hover:text-pink-300 transition duration-200 transform">About</a></li>
+            <li class="mt-4"><a href="#projectSection" class="text-gray-500 font-semibold hover:text-pink-300 transition duration-200">Projects</a></li>
+            <li class="mt-4"><a href="#skillSection" class="text-gray-500 font-semibold hover:text-pink-300 transition duration-200">Skills</a></li>
             <br>
-            <li class="mt-4"><a href="#" class="text-gray-500 text-lg font-semibold hover:text-pink-300 transition duration-200" id="resumeLink">Resume</a></li>
+            <li class="mt-4"><a href="#" class="text-gray-500 font-semibold hover:text-pink-300 transition duration-200" id="resumeLink">Resume</a></li>
           </ul>
         </div>
 
         <!-- Resume -->
-        <div class="overflow-hidden relative mt-8 mr-4">
+        <div class="overflow-hidden relative mt-2 mr-6">
             <div id="resumeThumbnail" class="resume-thumbnail">
             <a href="./docs/Gao_Siyu_Resume.pdf" download>
-                <img src="./images/resume-thumbnail.png" alt="Resume Thumbnail" class="h-48 blur-1">
+                <img src="./images/resume-thumbnail.png" alt="Resume Thumbnail" class="h-36 blur-1">
             </a>
             <div class="absolute bottom-16 w-full text-center opacity-0 transition-opacity duration-100 hover:opacity-100">
                 <a href="./docs/Gao_Siyu_Resume.pdf" download class="text-red-500 hover:text-black-700 py-12">Download <br> Resume</a>
@@ -56,7 +49,7 @@
         </div>
 
         <!--CONTACT-->
-        <div class="glitch-wrapper mt-32 place-content-end"><div class="glitch" data-glitch="Get in touch!">Get in touch!</div></div>
+        <div class="glitch-wrapper mt-16 place-content-end"><div class="glitch" data-glitch="Get in touch!">Get in touch!</div></div>
         <!-- Links -->
         <div class="flex pb-40 mt-4 mr-2 text-white bottom-0">
           <ul class="flex flex-row list-none space-x-7">
@@ -82,16 +75,16 @@
       <!-- RIGHT COLUMN -->
       <div id="right-column" class="flex flex-col justify-center items-center w-2/3 overflow-auto ml-auto hidden">
         <!--Inner wrapper for spacing-->
-        <div class="pt-32 pr-80 pl-28">
+        <div class="pt-32 pr-64 pl-14">
 
         <!--ABOUT ME-->
         <section id="aboutSection">
-            <div class="flex flex-col m-2">
+            <div class="flex flex-col mx-2">
                 <div class="glitch-wrapper-header">
                    <div class="glitch-header-am" data-glitch-am="ABOUT ME">ABOUT ME</div>
                 </div>
                 <!-- <div class="flex place-content-end text-6xl">ABOUT ME</div> -->
-                <div class="text-justify text-lg leading-relaxed pl-16 pt-8">
+                <div class="text-justify text-sm leading-relaxed pl-16 pt-8">
                     <span class="text-right block">Hey there! I'm Siyu, but feel free to call me Suzy. </span><br>
                     I am a final year undergraduate student with a strong passion for pursuing a career as a software developer.                   
                     My journey into the world of technology began with exploring IoT development, but I quickly found my true calling in coding.
@@ -111,23 +104,23 @@
         <!--Projects-->
         <section id="projectSection">
             <!--Projects Main Wrapper-->
-            <div class="flex flex-col overflow-auto space-y-10 ml-10">
+            <div class="flex flex-col overflow-auto space-y-6 ml-10">
                 <!-- <div class="flex place-content-end text-6xl pr-4 mt-32">PROJECTS</div> -->
                 <div class="glitch-wrapper-header">
-                   <div class="glitch-header-p mt-32" data-glitch-p="PROJECTS">PROJECTS</div>
+                   <div class="glitch-header-p mt-28" data-glitch-p="PROJECTS">PROJECTS</div>
                 </div>
                 <!--Project 1-->
                 <div class="p-6 bg-slate-100 rounded-xl shadow-lg flex overflow-auto items-center space-x-2 mt-6 project1">
                     <div>
-                        <div class="text-xl font-bold text-black pb-4">TourEz (Hackathon: In Progress)</div>
+                        <div class="text-lg font-bold text-black pb-2">TourEz (Hackathon: In Progress)</div>
                         <div class="tech-stack hidden">
-                            <div class="tag text-xs hidden">
+                            <div class="tag text-xxs leading-xxs hidden">
                                 <span>UI Path</span>
                                 <span>Gen AI</span>
                             </div>
                                 
                         </div> 
-                        <div class="text-slate-500 leading-relaxed">
+                        <div class="text-slate-500 leading-relaxed text-xs">
                             TourEz is an automation project that seamlessly blends Robotic Process Automation (RPA) with Generative AI to create a comprehensive travel application. 
                             It redefines the travel experience, by covering the journey from initial planning to the end of the trip, making it an accessible, enjoyable and hassel-free travelling for everyone!
                         </div>
@@ -137,9 +130,9 @@
                 <!--Project 2-->
                 <div class="p-6 bg-slate-100 rounded-xl shadow-lg flex items-center space-x-2 mt-6 project2">
                     <div>
-                        <div class="text-xl font-bold text-black pb-4">Authentic8 (In Progress)</div>
+                        <div class="text-lg font-bold text-black pb-2">Authentic8 (In Progress)</div>
                         <div class="tech-stack hidden">
-                            <div class="tag text-xs hidden">
+                            <div class="tag text-xxs leading-xxs hidden">
                                 <span>Javascript</span>
                                 <span>React Native (iOS)</span>
                                 <span>Solidity</span>
@@ -148,7 +141,7 @@
                             </div>
                                 
                         </div>                        
-                        <div class="text-slate-500 leading-relaxed">
+                        <div class="text-slate-500 leading-relaxed text-xs">
                             A decentralized application (dApp) designed to revolutionize the way we verify the authenticity of physical products. 
                             By integrating blockchain technology, Authentic8 enables each product to be tagged with a unique QR code, serving as a digital passport throughout its lifecycle. 
                             From production to the end user, this QR code allows for the secure and transparent transfer of ownership, ensuring that consumers can easily verify the authenticity of their purchases through navigating its transaction history.
@@ -159,17 +152,17 @@
                 <!--Project 3-->
                 <div class="p-6 bg-slate-100 rounded-xl shadow-lg flex flex-col items-center space-x-2 mt-6 project3">
                     <div class="flex justify-between w-full items-center">
-                        <div class="text-xl font-bold text-black pb-4 self-start">Cinema Paradiso</div>
-                            <div class="flex pb-4 place-content-end pr-4 h-10">
+                        <div class="text-lg font-bold text-black pb-2 self-start">Cinema Paradiso</div>
+                            <div class="flex pb-2 place-content-end pr-4 h-8">
                             <a href="https://github.com/siyugg/Cinema-Paradiso" class="flex">
-                                <span>Github</span>
+                                <span class="text-xs">Github</span>
                                 <img src="./images/icon/external-link-2-32.png" alt="GitHub Cinema Paradiso" class="h-4 w-4 ml-2 transform"/>
                             </a>
                             </div>
                     </div>
                     <div class="flex flex-col justify-between w-full flex-wrap">
                         <div class="tech-stack hidden self-start">
-                            <div class="tag text-xs hidden">
+                            <div class="tag text-xxs leading-xxs hidden">
                                 <span>HTML5</span>
                                 <span>CSS</span>
                                 <span>Javascript</span>
@@ -177,7 +170,7 @@
                                 <span>mySQL</span>
                             </div>  
                         </div> 
-                        <div class="text-slate-500 leading-relaxed self-end">
+                        <div class="text-slate-500 leading-relaxed self-end text-xs">
                             Cinema Paradiso is a user-friendly web application designed to streamline the movie booking process for its visitors. 
                             It offers a hassle-free experience for users to find and book tickets to their favorite films. 
                             The application provides real-time updates on showtimes, seat availability, and pricing, ensuring movie enthusiasts can plan their cinema visits with ease and convenience.
@@ -186,24 +179,24 @@
                 </div>
                 <!--Proejct 4-->
                 <div class="p-6 bg-slate-100 rounded-xl shadow-lg flex flex-col items-center space-x-2 mt-6 project4">
-                    <div class="flex justify-between w-full items-center">
-                        <div class="text-xl font-bold text-black pb-4 self-start">TaskWatch</div>
-                            <div class="flex pb-4 place-content-end pr-4 h-10">
+                    <div class="flex justify-between w-full items-center ">
+                        <div class="text-lg font-bold text-black pb-2 self-start">TaskWatch</div>
+                            <div class="flex pb-2 place-content-end pr-4 h-8">
                             <a href="https://github.com/siyugg/TaskWatch" class="flex">
-                                <span>Github</span>
+                                <span class="text-xs">Github</span>
                                 <img src="./images/icon/external-link-2-32.png" alt="GitHub TaskWatch" class="h-4 w-4 ml-2 transform"/>
                             </a>
                             </div>
                     </div>
                     <div class="flex flex-col justify-between w-full flex-wrap">
                         <div class="tech-stack hidden self-start">
-                            <div class="tag text-xs hidden">
+                            <div class="tag text-xxs leading-xxs hidden">
                                 <span>HTML5</span>
                                 <span>CSS</span>
                                 <span>Javascript</span>
                             </div>  
                         </div> 
-                        <div class="text-slate-500 leading-relaxed self-end">
+                        <div class="text-slate-500 leading-relaxed self-end text-xs">
                             TaskWatch is an intuitive web application designed to elevate time management skills by enabling users to track the time spent on each task and monitor work efficiency. 
                            With the ability to add multiple tasks and initiate a stopwatch for each, this tool is perfect for individuals looking to enhance their productivity and gain insights into how their time is allocated, ultimately fostering better time management practices and improving overall task performance.
                         </div>
@@ -217,44 +210,44 @@
             <!-- Skills Header -->
             <!-- <div class="text-6xl mt-32">Skills</div> -->
             <div class="glitch-wrapper-header">
-                   <div class="glitch-header-s mt-32" data-glitch-s="SKILLS">SKILLS</div>
+                   <div class="glitch-header-s mt-20" data-glitch-s="SKILLS">SKILLS</div>
                 </div>
             <!-- Skills Container -->
-            <div class="flex flex-wrap justify-center mt-4">
+            <div class="flex flex-wrap justify-center">
                 <!-- Intermediate Skills -->
-                <div class="w-full md:w-1/2 pt-4 pr-4">
+                <div class="w-full md:w-1/2 pr-4">
                 <div class="bg-slate-100 p-6 rounded-xl shadow-lg">
-                    <div class="text-xl font-semibold mb-2">Intermediate</div>
-                    <div class="text-sm">HTML5, CSS (Tailwindcss), PHP, Python, C, AWS (IoT Core), Figma</div>
+                    <div class="text-lg font-semibold mb-2">Intermediate</div>
+                    <div class="text-xs">HTML5, CSS (Tailwindcss), PHP, Python, C, AWS (IoT Core), Figma</div>
                 </div>
                 </div>
                 <!-- Beginner Skills -->
-                <div class="w-full md:w-1/2 pt-20">
+                <div class="w-full md:w-1/2 pt-14">
                 <div class="bg-slate-100 p-6 rounded-xl shadow-lg">
-                    <div class="text-xl font-semibold mb-2">Beginner</div>
-                    <div class="text-sm">JavaScript, MySQL, React Native, Solidity (Truffle), MATLAB</div>
+                    <div class="text-lg font-semibold mb-2">Beginner</div>
+                    <div class="text-xs">JavaScript, MySQL, React Native, Solidity (Truffle), MATLAB</div>
                 </div>
                 </div>
                 <!-- Still Learning -->
                 <div class="w-full md:w-1/2 pr-4">
                 <div class="bg-slate-100 p-6 rounded-xl shadow-lg">
-                    <div class="text-xl font-semibold mb-2">Still Learning</div>
-                    <div class="text-sm">React, Node.js, AWS (EC2, S3), REST API, UIPath, Three.js</div>
+                    <div class="text-lg font-semibold mb-2">Still Learning</div>
+                    <div class="text-xs">React, Node.js, AWS (EC2, S3), REST API, UIPath, Three.js</div>
                 </div>
                 </div>
                 <!-- Other Skills -->
                 <div class="w-full md:w-1/2 pt-16">
                 <div class="bg-slate-100 p-6 rounded-xl shadow-lg">
-                    <div class="text-xl font-semibold mb-2">Other Skills</div>
-                    <div class="text-sm">Git, Agile Development, JIRA, Docker, Raspberry-Pi, Blockchain (ETH), Ganache</div>
+                    <div class="text-lg font-semibold mb-2">Other Skills</div>
+                    <div class="text-xs">Git, Agile Development, JIRA, Docker, Raspberry-Pi, Blockchain (ETH), Ganache</div>
                 </div>
                 </div>
             </div>
         </section>
 
         <!--Closing-->
-        <footer class="text-right pr-2 mt-52 mb-40">
-            <p>&copy; 2024 Siyu Gao. All Rights Reserved.</p>
+        <footer class="text-right pr-2 mt-36 mb-40">
+            <p class="text-xs">&copy; 2024 Siyu Gao. All Rights Reserved.</p>
         </footer>
       </div>
     </div>

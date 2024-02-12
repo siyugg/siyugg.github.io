@@ -90,13 +90,13 @@
 .tag span {
   position: relative;
   display: inline-block;
-  padding-left: 15px;
-  padding: 5px 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding-left: 12px;
+  padding: 4px 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
   background-color: none;
   border-radius: 15px;
-  border: solid 2px #af555e;
+  border: solid 1px #af555e;
   background-color: rgb(255, 219, 225);
 }
 
@@ -197,7 +197,7 @@
 
 .glitch-header-am {
   position: relative;
-  font-size: 60px;
+  font-size: 48px;
   /* font-weight: 700; */
   /* line-height: 1.2; */
   color: #000000;
@@ -234,7 +234,7 @@
 /* Glitch (Projects) */
 .glitch-header-p {
   position: relative;
-  font-size: 60px;
+  font-size: 48px;
   /* font-weight: 700; */
   line-height: 1.2;
   color: #000000;
@@ -271,7 +271,7 @@
 /* Glitch (Skills) */
 .glitch-header-s {
   position: relative;
-  font-size: 60px;
+  font-size: 48px;
   /* font-weight: 700; */
   line-height: 1.2;
   color: #000000;

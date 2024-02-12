@@ -28,6 +28,12 @@ module.exports = {
         1: "1px",
         2: "2px",
       },
+      fontSize: {
+        xxs: "9px",
+      },
+      lineHeight: {
+        xxs: "12px",
+      },
     },
   },
   plugins: [],
