@@ -100,8 +100,40 @@
   background-color: rgb(255, 219, 225);
 }
 
-/* Resume */
+/* Name */
+.glitch-header-name {
+  position: relative;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #000000;
+  z-index: 1;
+}
 
+.glitch-header-name:before {
+  content: attr(data-glitch-name);
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 100%;
+  color: #000000;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-before 3s infinite linear alternate-reverse;
+}
+
+.glitch-header-name:after {
+  content: attr(data-glitch-name);
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 100%;
+  color: #000000;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-after 2s infinite linear alternate-reverse;
+}
+
+/* Resume */
 .resume-thumbnail {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -111,7 +143,6 @@
 }
 
 /* GLITCH (Get in Touch) */
-
 .glitch-wrapper {
   width: 100%;
   height: 100%;
@@ -119,7 +150,6 @@
   align-items: center;
   justify-content: end;
   text-align: right;
-  /* background-color: #222; */
 }
 
 .glitch {
@@ -192,16 +222,12 @@
   justify-content: end;
   text-align: right;
   right: 0%;
-  /* background-color: #222; */
 }
 
 .glitch-header-am {
   position: relative;
   font-size: 48px;
-  /* font-weight: 700; */
-  /* line-height: 1.2; */
   color: #000000;
-  /* letter-spacing: 4px; */
   z-index: 1;
 }
 
@@ -212,7 +238,6 @@
   left: -2px;
   width: 100%;
   color: #000000;
-  /* background-color: #222; */
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-before 3s infinite linear alternate-reverse;
@@ -249,7 +274,6 @@
   left: -2px;
   width: 100%;
   color: #000000;
-  /* background-color: #222; */
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-before 3s infinite linear alternate-reverse;
@@ -262,7 +286,6 @@
   left: 2px;
   width: 100%;
   color: #000000;
-  /* background-color: #222; */
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-after 2s infinite linear alternate-reverse;
@@ -272,10 +295,8 @@
 .glitch-header-s {
   position: relative;
   font-size: 48px;
-  /* font-weight: 700; */
   line-height: 1.2;
   color: #000000;
-  /* letter-spacing: 4px; */
   z-index: 1;
 }
 
@@ -299,7 +320,6 @@
   left: 2px;
   width: 100%;
   color: #000000;
-  /* background-color: #222; */
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-after 2s infinite linear alternate-reverse;
