@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2af93026.css",
+    "main.css": "/static/css/main.527d6a5b.css",
     "main.js": "/static/js/main.61b56b59.js",
     "static/media/resume-thumbnail.png": "/static/media/resume-thumbnail.89cfff80ad0ae08f39f1.png",
     "static/media/Halogen-Regular.otf": "/static/media/Halogen-Regular.1473fe5bf4585b103b60.otf",
     "index.html": "/index.html",
-    "main.2af93026.css.map": "/static/css/main.2af93026.css.map",
+    "main.527d6a5b.css.map": "/static/css/main.527d6a5b.css.map",
     "main.61b56b59.js.map": "/static/js/main.61b56b59.js.map"
   },
   "entrypoints": [
-    "static/css/main.2af93026.css",
+    "static/css/main.527d6a5b.css",
     "static/js/main.61b56b59.js"
   ]
 }
