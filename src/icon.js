@@ -6,6 +6,10 @@ import githubIcon from "./images/icon/github-9-32.png";
 import githubIconPink from "./images/icon/github-9-32-pink.png";
 import linkIcon from "./images/icon/external-link-2-32.png";
 import resumeThumbnail from "./images/resume-thumbnail.png";
+import airplaneCursor from "./images/cursor/airplane.png";
+import blockchainCursor from "./images/cursor/blockchain.png";
+import cinemaCursor from "./images/cursor/cinema.png";
+import stopwatchCursor from "./images/cursor/stopwatch.png";
 
 export {
   emailIcon,
@@ -16,17 +20,8 @@ export {
   githubIconPink,
   linkIcon,
   resumeThumbnail,
+  airplaneCursor,
+  blockchainCursor,
+  cinemaCursor,
+  stopwatchCursor,
 };
-
-// const icons = {
-//   emailIcon,
-//   emailIconPink,
-//   linkedinIcon,
-//   linkedinIconPink,
-//   githubIcon,
-//   githubIconPink,
-//   linkIcon,
-//   resumeThumbnail,
-// };
-
-// export default icons;
