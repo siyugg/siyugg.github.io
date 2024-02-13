@@ -124,7 +124,7 @@ function LeftColumn() {
       </div>
 
       {/* <!--NAV LIST--> */}
-      <div className="flex mt-12 pr-8">
+      <div className="flex mt-16 pr-8">
         <ul className="flex flex-col list-none text-sm text-center">
           <li className="mt-4">
             <a
@@ -150,6 +150,7 @@ function LeftColumn() {
               Skills
             </a>
           </li>
+          <br />
           <br />
           <li className="mt-4">
             <a
@@ -190,7 +191,7 @@ function LeftColumn() {
       </div>
 
       {/* <!--CONTACT--> */}
-      <div className="glitch-wrapper mt-16 place-content-end">
+      <div className="glitch-wrapper mt-40 place-content-end">
         <div className="glitch" data-glitch="Get in touch!">
           Get in touch!
         </div>
@@ -296,7 +297,7 @@ function RightColumn() {
                   TourEz (Hackathon: In Progress)
                 </div>
                 <div className="tech-stack hidden">
-                  <div className="tag text-xxs leading-xxs hidden">
+                  <div className="tag text-xxs leading-xxs">
                     <span>UI Path</span>
                     <span>Gen AI</span>
                   </div>
@@ -319,7 +320,7 @@ function RightColumn() {
                   Authentic8 (In Progress)
                 </div>
                 <div className="tech-stack hidden">
-                  <div className="tag text-xxs leading-xxs hidden">
+                  <div className="tag text-xxs leading-xxs">
                     <span>Javascript</span>
                     <span>React Native (iOS)</span>
                     <span>Solidity</span>
@@ -363,7 +364,7 @@ function RightColumn() {
               </div>
               <div className="flex flex-col justify-between w-full flex-wrap">
                 <div className="tech-stack hidden self-start">
-                  <div className="tag text-xxs leading-xxs hidden">
+                  <div className="tag text-xxs leading-xxs">
                     <span>HTML5</span>
                     <span>CSS</span>
                     <span>Javascript</span>
@@ -404,7 +405,7 @@ function RightColumn() {
               </div>
               <div className="flex flex-col justify-between w-full flex-wrap">
                 <div className="tech-stack hidden self-start">
-                  <div className="tag text-xxs leading-xxs hidden">
+                  <div className="tag text-xxs leading-xxs">
                     <span>HTML5</span>
                     <span>CSS</span>
                     <span>Javascript</span>

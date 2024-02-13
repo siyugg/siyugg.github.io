@@ -41,10 +41,8 @@ html,
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  -moz-tab-size: 4;
   /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -376,13 +374,6 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -653,6 +644,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
@@ -707,10 +702,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[99vw\] {
-  width: 99vw;
 }
 
 .shrink-0 {
