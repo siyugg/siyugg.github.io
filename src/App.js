@@ -9,6 +9,7 @@ import {
   linkIcon,
   resumeThumbnail,
 } from "./icon";
+import logo from "./logo.png";
 
 import "./style.css";
 
@@ -291,7 +292,7 @@ function RightColumn() {
               </div>
             </div>
             {/* <!--Project 1--> */}
-            <div className="p-6 bg-slate-100 rounded-xl shadow-lg flex overflow-auto items-center space-x-2 mt-6 project1">
+            {/* <div className="p-6 bg-slate-100 rounded-xl shadow-lg flex overflow-auto items-center space-x-2 mt-6 project1">
               <div>
                 <div className="text-lg font-bold text-black pb-2">
                   TourEz (Hackathon: In Progress)
@@ -311,24 +312,35 @@ function RightColumn() {
                   hassel-free travelling for everyone!
                 </div>
               </div>
-            </div>
-
+            </div> */}
             {/* <!--Project 2--> */}
-            <div className="p-6 bg-slate-100 rounded-xl shadow-lg flex items-center space-x-2 mt-6 project2">
-              <div>
-                <div className="text-lg font-bold text-black pb-2">
-                  Authentic8 (In Progress)
+            <div className="p-6 bg-slate-100 rounded-xl shadow-lg flex flex-col items-center space-x-2 mt-6 project3">
+              <div className="flex justify-between w-full items-center">
+                <div className="text-lg font-bold text-black pb-2 self-start">
+                  AuChain
                 </div>
-                <div className="tech-stack hidden">
+                <div className="flex pb-2 place-content-end pr-4 h-8">
+                  <a href="https://github.com/siyugg/AuChain" className="flex">
+                    <span className="text-xs">Github</span>
+                    <img
+                      src={linkIcon}
+                      alt="GitHub AuChain"
+                      className="h-4 w-4 ml-2 transform"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-col justify-between w-full flex-wrap">
+                <div className="tech-stack hidden self-start">
                   <div className="tag text-xxs leading-xxs">
                     <span>Javascript</span>
-                    <span>React Native (iOS)</span>
+                    <span>React Native</span>
                     <span>Solidity</span>
                     <span>Truffle</span>
                     <span>Etherum (ERC 721)</span>
                   </div>
                 </div>
-                <div className="text-slate-500 leading-relaxed text-xs">
+                <div className="text-slate-500 leading-relaxed self-end text-xs">
                   A decentralized application (dApp) designed to revolutionize
                   the way we verify the authenticity of physical products. By
                   integrating blockchain technology, Authentic8 enables each

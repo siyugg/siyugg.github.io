@@ -10,6 +10,9 @@
   font-style: normal;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
 /* BACKGROUND */
 .background {
   background-position: fixed;
